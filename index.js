@@ -16,5 +16,5 @@ function nameToAttributes(oldNames) {
 
 
 function attributesToPhrase(){
-  
+
 }
