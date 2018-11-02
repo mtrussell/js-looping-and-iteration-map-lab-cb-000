@@ -17,6 +17,8 @@ function nameToAttributes(oldNames) {
 }
 
 
-function attributesToPhrase(){
-
+function attributesToPhrase(hometownDrivers){
+  const hometownPhrase = hometownDrivers.map(function(driver){
+    return `#{driver.name} is from #{driver.hometown}`;
+  });
 }
